@@ -498,12 +498,25 @@ nav ul li:hover{
 
 }
 
-@media (max-width: 500px){
+@media (max-width: 450px){
 
     
     /*header*/
+
+    .img_secudary img{
+        display: none;
+    }
+
+    .area_text_header h1{
+        margin-top: -3px;
+    }
     .header_left h1{
         font-size: 54pt;
+    }
+
+    .header_widget h2{
+        margin-bottom: 36px;
+        margin-top: -48px;
     }
     .header_widget{
         display: grid;
@@ -521,6 +534,7 @@ nav ul li:hover{
 
     .widget_folhas_header img{
         max-width: 87%;
+        margin-top: -116px;
     }
 
     .best_widget_leaf01{
@@ -555,6 +569,10 @@ nav ul li:hover{
 
     .block_text{
         padding-bottom: 50px;
+    }
+
+    .block_text h1{
+        font-size: 20pt;
     }
 
     .block_left img{
