@@ -19,6 +19,7 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+   
 }
 
 .container_main{
@@ -386,6 +387,10 @@ nav ul li:hover{
 
 @media (max-width: 1024px) {
 
+    p{
+        font-size: 15pt;
+    }
+
     .container_main{
         padding: 19px;
     }
@@ -400,9 +405,6 @@ nav ul li:hover{
 
     /*body*/
 
-    p{
-        font-size: 12pt;
-    }
 
     .container_plates{
         display: grid;
@@ -424,6 +426,11 @@ nav ul li:hover{
         left: 180px;
     }
 
+    .area_sobre_left, .area_sobre_right p{
+        text-align: center;
+    }
+    
+
     .container_widget_description{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -440,6 +447,11 @@ nav ul li:hover{
 
     .best_widget_leaf01 img{
         margin-left: -188px;
+    }
+
+    .area_text_sobre{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
     }
 }
 
@@ -488,6 +500,9 @@ nav ul li:hover{
 
 @media (max-width: 450px){
 
+    p{
+        font-size: 12pt;
+    }
 
     /*header*/
     .header_left h1{
@@ -521,6 +536,10 @@ nav ul li:hover{
 
     /*body*/
 
+    .area_sobre_left, .area_sobre_right, p{
+        font-size: 12pt;
+    }
+
 
     #section_plates .area_text_plates h1, #section_sobre h1, .block_text_best h1{
         font-size: 35pt;
@@ -529,6 +548,7 @@ nav ul li:hover{
     .promotion_container{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        text-align: center;
     }
 
     .widget_plates img{
