@@ -334,7 +334,7 @@ nav ul li:hover{
 }
 
 .text_area_description{
-    margin: 100px;
+    margin-top: 100px;
 }
 .text_area_description strong{
     font-size: 15pt;
@@ -500,10 +500,7 @@ nav ul li:hover{
 
 @media (max-width: 450px){
 
-    p{
-        font-size: 12pt;
-    }
-
+    
     /*header*/
     .header_left h1{
         font-size: 54pt;
@@ -537,13 +534,14 @@ nav ul li:hover{
     /*body*/
 
     .area_sobre_left, .area_sobre_right, p{
-        font-size: 12pt;
+        font-size: 10pt;
     }
 
 
     #section_plates .area_text_plates h1, #section_sobre h1, .block_text_best h1{
         font-size: 35pt;
     }
+    
 
     .promotion_container{
         display: grid;
@@ -605,6 +603,10 @@ nav ul li:hover{
    #best_foot{
         height: 135vh;
    }
+
+   .widget_description h1{
+       font-size: 30pt;
+    }
    .widget_img_pizza img{
         margin-top: 20px;
    }
@@ -614,7 +616,9 @@ nav ul li:hover{
    }
 
    #section_plates .area_text_plates h1, #section_sobre h1, .block_text_best h1{
-       
+       font-size: 30pt;
    }
+
+   
     
 }
