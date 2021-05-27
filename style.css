@@ -573,3 +573,48 @@ nav ul li:hover{
         grid-template-columns: repeat(1,1fr);
     }
 }
+
+
+@media (max-width: 320px){
+
+    /*header*/
+    .header_left h1{
+        font-size: 40pt;
+    }
+
+    .container_main{
+        padding: 10px;
+    }
+   p{
+       font-size: 10pt;
+   }
+
+   /*body*/
+
+   .area_sobre_left, .area_sobre_right, p{
+       font-size: 9pt;
+   }
+
+   .block_text h1{
+       font-size: 20pt;
+   }
+
+   .block_text_best{
+       padding-top: 50px;
+   }
+   #best_foot{
+        height: 135vh;
+   }
+   .widget_img_pizza img{
+        margin-top: 20px;
+   }
+
+   .text_area_description{
+       margin: 0;
+   }
+
+   #section_plates .area_text_plates h1, #section_sobre h1, .block_text_best h1{
+       
+   }
+    
+}
