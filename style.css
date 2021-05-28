@@ -498,7 +498,7 @@ nav ul li:hover{
 
 }
 
-@media (max-width: 500px){
+@media (max-width: 450px){
 
     
     /*header*/
@@ -556,7 +556,7 @@ nav ul li:hover{
     /*body*/
 
     .area_sobre_left, .area_sobre_right, p{
-        font-size: 10pt;
+        font-size: 9pt;
     }
 
     #section_plates .area_text_plates h1{
