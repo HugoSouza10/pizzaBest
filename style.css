@@ -534,11 +534,19 @@ nav ul li:hover{
 
     .widget_folhas_header img{
         max-width: 87%;
-        margin-top: -116px;
+        margin-top: -204px;
+    }
+
+    .widget_img_header .img_main img{
+        margin-bottom: 150px;
     }
 
     .best_widget_leaf01{
         display: none;
+    }
+
+    #best_foot{
+        height: 74vh;
     }
 
     nav{
@@ -551,11 +559,17 @@ nav ul li:hover{
         font-size: 10pt;
     }
 
+    #section_plates .area_text_plates h1{
+        margin-bottom: 22px
+    }
+
 
     #section_plates .area_text_plates h1, #section_sobre h1, .block_text_best h1{
         font-size: 35pt;
-        margin-top: 130px;
     }
+
+
+
     
 
     .promotion_container{
@@ -570,6 +584,10 @@ nav ul li:hover{
 
     .block_text{
         padding-bottom: 50px;
+    }
+
+    .block_text_best {
+        padding-top: 0px;
     }
 
     .block_text h1{
