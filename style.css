@@ -11,6 +11,8 @@
     top:0;
 }
 
+
+
 #btn_mobile{
     display: none;
 }
@@ -474,18 +476,21 @@ nav ul li:hover{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    width: 30px;
-    height: 30px;
-    padding: 60px;
+    width: 20px;
+    height: 20px;
+    padding: 35px;
     position: fixed;
     color: white;
     z-index: 10;
   }
 
   .line_menu{
-      height: 5px;
+      height: 3px;
       background-color: white;
   }
+
+  /*classe de animação do hamburgue*/
+
   #nav{
     position: absolute;
     z-index: 1;
@@ -510,8 +515,10 @@ nav ul li:hover{
     }
 
     nav ul li{
+        transition: 0.5s;
         margin-bottom: 20px;
-        font-size: 15pt;
+        font-size: 12pt;
+        
     }
 
     
