@@ -5,6 +5,16 @@
     src: url('asset/font/Streetbrush.otf');
 }
 
+
+/*Classe para abrir o menu*/
+.navOpen{
+    top:0;
+}
+
+#btn_mobile{
+    display: none;
+}
+
 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
@@ -150,7 +160,7 @@ nav ul li:hover{
 
 #section_plates .area_text_plates h1{
     font-family:Streetbrush;
-    font-size: 100px;
+    font-size: 50pt;
     margin-bottom: 60px;
 }
 
@@ -330,7 +340,7 @@ nav ul li:hover{
 
 .widget_description h1{
     font-family:Streetbrush;
-    font-size:40pt;
+    font-size:30pt;
 }
 
 .text_area_description{
@@ -437,7 +447,7 @@ nav ul li:hover{
     }
 
     #best_foot {
-        height: 187vh;
+        height: 82vh;
     }
 
     .best_widget_leaf02 img{
@@ -456,8 +466,55 @@ nav ul li:hover{
 }
 
 
-@media (max-width: 768px){
+@media (max-width: 800px){
+    
+  /*MENU MOBILE*/
 
+  #icone_menu{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 30px;
+    height: 30px;
+    padding: 60px;
+    position: fixed;
+    color: white;
+    z-index: 10;
+  }
+
+  .line_menu{
+      height: 5px;
+      background-color: white;
+  }
+  #nav{
+    position: absolute;
+    z-index: 1;
+  }
+
+    nav ul{
+        flex-direction: column;
+        background:rgb(0,0,0,0.9);
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: -938px;
+        height: 100%;
+        position: fixed;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s ease;
+    }
+
+    nav ul li, #shearch input{
+        margin-left: 0px;
+    }
+
+    nav ul li{
+        margin-bottom: 20px;
+        font-size: 15pt;
+    }
+
+    
 
     .header_widget{
         display: grid;
@@ -468,6 +525,10 @@ nav ul li:hover{
         font-size: 16pt;
         margin-bottom: 31px;
         margin-top: -55px;
+    }
+
+    .img_secudary{
+        display: none;
     }
     
 
@@ -485,7 +546,7 @@ nav ul li:hover{
     
 
     #best_foot{
-        height: 158vh;
+        height: 73vh;
     }
 
     .block_text h1{
@@ -513,6 +574,9 @@ nav ul li:hover{
     .widget_img_header .img_main img{
             max-width:350px;
     }
+
+
+    
 
     
 
@@ -569,9 +633,7 @@ nav ul li:hover{
         height: 74vh;
     }
 
-    nav{
-        display: none;
-    }
+   
 
     /*body*/
 
@@ -579,9 +641,7 @@ nav ul li:hover{
         font-size: 9pt;
     }
 
-    #section_plates .area_text_plates h1{
-        margin-bottom: 22px
-    }
+
 
 
     #section_plates .area_text_plates h1, #section_sobre h1, .block_text_best h1{
