@@ -3,6 +3,10 @@
 
 #PIZZA BEST
 
+
+![pizza best sessão 1](https://user-images.githubusercontent.com/51915862/136867163-d593084e-8b60-44e5-8491-dbf175ff05bb.png)
+
+
 ### ✍️**Descrição:**
 
 O Projeto pizza best é um site codificado do zero com html5, css e js. O projeto foi baseado em um layout em psd que baixei da internet com intuito de aprender essas tecnologias. 
