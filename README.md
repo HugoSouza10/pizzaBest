@@ -16,6 +16,12 @@ O Projeto pizza best é um site codificado do zero com html5, css e js. O projet
 -   CSS3
 -   JS
 
+
+<div>
+![pizza best mobile](https://user-images.githubusercontent.com/51915862/136867500-32f6e118-db9b-49f4-8f5a-7306abfde9f4.png)
+
+</div>
+
 **Link do projeto:**  
    https://hugosouza10.github.io/projetoPizza/
 
