@@ -1,7 +1,6 @@
 
 
-
-###PIZZA BEST
+<h1>PIZZA BEST</h1>
 
 
 ![pizza best sessão 1](https://user-images.githubusercontent.com/51915862/136867163-d593084e-8b60-44e5-8491-dbf175ff05bb.png)
