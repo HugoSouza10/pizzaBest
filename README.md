@@ -22,7 +22,7 @@ O Projeto pizza best é um site codificado do zero com html5, css e js. O projet
 
 
 **Link do projeto:**  
-   https://hugosouza10.github.io/projetoPizza/
+   https://hugosouza10.github.io/pizzaBest/
 
 🎯 **Objetivo:**  Bem, o objetivo do projeto é desenvolver um site com html5, css3 e js de forma responsiva. Este projeto é baseado em um layout psd gratuito que baixei do site feepik. O projeto foi desenvolvido com bons padrões códigos e com tags semânticas do html 5.
 
@@ -32,4 +32,4 @@ Este projeto não tem nenhuma biblioteca, foi tudo criado com a linguagem pura m
 
 **Status do projeto:**
 
-Projeto 100% concluído inclusive está hospedado no git page para teste. https://hugosouza10.github.io/pizzaBest/
+Projeto 100% concluído inclusive está hospedado no git page para teste.
