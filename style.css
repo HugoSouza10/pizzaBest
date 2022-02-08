@@ -545,7 +545,7 @@ nav ul li:hover{
     /*body*/
     #section_plates .area_text_plates h1,  #section_sobre h1, .block_text_best h1,  .header_left h1{
         font-size: 60pt;
-        margin-top: -6px;
+       /* margin-top: -6px; */
 
     }
     
