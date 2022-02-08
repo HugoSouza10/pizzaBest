@@ -653,6 +653,7 @@ nav ul li:hover{
 
     #section_plates .area_text_plates h1, #section_sobre h1, .block_text_best h1{
         font-size: 35pt;
+        margin-bottom: auto;
     }
 
 
